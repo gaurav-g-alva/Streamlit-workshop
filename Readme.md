@@ -16,7 +16,8 @@ df = pd.DataFrame({
     'Age': [25,32,37,45],
     'Occupation':['Engineer', 'Doctor','Artist','Chef']
 })
-st.DataFrame(df)
+#st.DataFrame(df)
+st.table(df)
 
 ```
 ### Data Editor 
