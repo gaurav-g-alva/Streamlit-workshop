@@ -10,6 +10,11 @@ import streamlit as st
 ```
 st.title("Streamlit Workshop")
 ```
+- <b>Run Streamlit</b>
+```
+streamlit run main.py
+```
+<hr>
 
 - <b>Section heading.</b>
 ```
