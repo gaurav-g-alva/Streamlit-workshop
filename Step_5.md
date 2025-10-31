@@ -27,6 +27,11 @@ with st.form(key="user_info"):
             for(key,value) in form_values.items():
                 st.write(f"{key}:{value}")
 ```
+### Navigation Bar
+```python
+st.sidebar.header("Sidebar Menu")
+option = st.sidebar.selectbox("Navigate", ["Home", "About", "Contact"])
+```
 <hr>
 
 ## [Home](Readme.md) || [Previous](Step_4.md)
