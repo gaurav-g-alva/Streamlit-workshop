@@ -19,6 +19,10 @@ python -m venv venv
 source venv/bin/activate   # For Linux/Mac
 venv\Scripts\activate      # For Windows
 ```
+<code style="color : red">If there's any Error in Activating Virtual Environment in Windows then use below code (Temporary fix) and run the venv\Scripts\activate </code>
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+```
 - <b>Install the Required Libs</b>
 
 ```python 
